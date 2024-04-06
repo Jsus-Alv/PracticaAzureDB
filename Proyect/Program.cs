@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        //string connectionString = "Server=proyecto-programacion-server.database.windows.net;Database=Proyecto-Programacion-Database;User Id=CloudSAe4ad0de0; Password=kK4MK;";
+        //string connectionString = "Server=proyecto-programacion-server.database.windows.net;Database=Proyecto-Programacion-Database;User Id=GITHUBGUARDIANMELOMARCABA; Password=GITHUBGUARDIANMELOMARCABA;";
         string connectionString = "Server=tcp:proyecto-programacion-server.database.windows.net,1433;Initial Catalog=Proyecto-Programacion-Database;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication=Active Directory Default";
         
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
